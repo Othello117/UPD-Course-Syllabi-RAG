@@ -11,6 +11,8 @@ license: apache-2.0
 short_description: Chat with a helpful and knowledgeable UPD CRS assistant
 ---
 
+Hugging Face Spaces Link: https://huggingface.co/spaces/Alfonso117/UPD_CRS_Assistant
+
 # UPD CRS Assistant (RAG Pipeline)
 
 This repository contains the RAG (Retrieval-Augmented Generation) pipeline configurations and specifications for the UPD CRS Assistant, designed to help students with UP Diliman Math Department course information.
@@ -53,4 +55,4 @@ The system utilizes an intelligent routing chain to determine the intent and sco
 
 - **Framework**: LangChain & Gradio
 - **Memory Handling**: Retains and formats the chat history, passing it both to the Router for query disambiguation and to the final RAG Prompt for contextual answering.
-- **Deployment**: Hosted on Hugging Face Spaces using the Gradio SDK.
+- **Deployment**: Hosted on Hugging Face Spaces using the Gradio SDK. 
